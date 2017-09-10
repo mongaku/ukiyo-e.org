@@ -1,0 +1,25 @@
+{
+  "name": "ukiyo-e.org",
+  "version": "0.0.1",
+  "description": "",
+  "main": "mongaku.js",
+  "scripts": {
+    "start": "./mongaku/build/bin/mongaku.js start",
+    "stop": "./mongaku/build/bin/mongaku.js stop",
+    "restart": "./mongaku/build/bin/mongaku.js restart",
+    "dev": "./mongaku/build/bin/mongaku.js dev",
+    "build": "cp -R ./mongaku/static/ static/ && ./mongaku/node_modules/.bin/webpack --config ./mongaku/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeresig/ukiyo-e.git"
+  },
+  "author": "John Resig <jeresig@gmail.com>",
+  "license": "All Rights Reserved",
+  "homepage": "https://github.com/jeresig/ukiyo-e",
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "jsonlint": "^1.6.2",
+    "romaji-name": "^0.1.7"
+  }
+}
