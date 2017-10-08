@@ -8,6 +8,11 @@ module.exports = {
         images: require("./converters/images.js"),
     },
 
+    locales: {
+        en: "English",
+        ja: "日本語",
+    },
+
     types: {
         images: {
             imagesRequired: true,
@@ -22,12 +27,13 @@ module.exports = {
                 "created.asc": (i18n) => i18n.gettext("Oldest first"),
             },
 
-            recordTitle(record) {
-                const title = record.title || `Untitled Print`;
+            recordTitle(record, i18n) {
+                const title = record.title ||
+                    i18n.gettext("Untitled Print");
                 const artist = record.artist[0] && record.artist[0].name;
 
                 if (artist) {
-                    return `${title} by ${artist}`;
+                    return `${artist}: ${title}`;
                 }
 
                 return title;
