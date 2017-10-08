@@ -5,7 +5,9 @@ const concat = require("concat-stream");
 const romajiName = require("romaji-name");
 
 const mapItem = (item) => ({
-    id: item.source_id,
+    // NOTE(jeresig): This should've been source_id, but we're using the image
+    // name to make transitioning from the old site easier.
+    id: item.image_file.replace(/\.jpg$/i, ""),
     lang: "en",
     title: item.title,
     description: item.description,
