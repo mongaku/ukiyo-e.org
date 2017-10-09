@@ -8,6 +8,7 @@
     "stop": "./mongaku/build/bin/mongaku.js stop",
     "restart": "./mongaku/build/bin/mongaku.js restart",
     "dev": "./mongaku/build/bin/mongaku.js dev",
+    "i18n-extract": "./mongaku/build/bin/mongaku.js i18n extract",
     "build": "cp -R ./mongaku/static/ static/ && ./mongaku/node_modules/.bin/webpack --config ./mongaku/webpack.config.js"
   },
   "repository": {
