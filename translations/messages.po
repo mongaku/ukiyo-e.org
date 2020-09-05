@@ -1,0 +1,977 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
+
+#: mongaku.js:5
+msgid "Ukiyo-e.org"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:59
+msgid "Images"
+msgstr ""
+
+#: mongaku.js:26
+msgid "Added recently"
+msgstr ""
+
+#: mongaku.js:27
+msgid "Oldest first"
+msgstr ""
+
+#: mongaku.js:32
+msgid "Untitled Print"
+msgstr ""
+
+#: mongaku/build/tests/options.js:59
+msgid "Title"
+msgstr ""
+
+#: mongaku/build/tests/options.js:66
+msgid "Artist"
+msgstr ""
+
+#: mongaku.js:54
+msgid "Sample: Hokusai"
+msgstr ""
+
+#: mongaku/build/tests/options.js:73
+msgid "Date"
+msgstr ""
+
+#: mongaku.js:78
+msgid "Description"
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:152
+msgid "Source"
+msgstr ""
+
+#: mongaku/build/views/ManageSources.js:39
+msgid "Records"
+msgstr ""
+
+#: mongaku/build/logic/admin.js:77
+msgid "Required field not provided."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:130
+msgid "Error creating source image directories."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:135
+msgid "Error creating source."
+msgstr ""
+
+#: mongaku/build/views/Page.js:204
+msgid "Admin"
+msgstr ""
+
+#: mongaku/build/views/Page.js:208
+msgid "Add or Update User"
+msgstr ""
+
+#: mongaku/build/logic/admin.js:188
+msgid "Error creating or updating user."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:191
+msgid "Created or updated user: %(user)s"
+msgstr ""
+
+#: mongaku/build/views/Page.js:210
+msgid "Bulk Add or Update Users"
+msgstr ""
+
+#: mongaku/build/logic/admin.js:230
+msgid "Error parsing usernames and passwords."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:257
+msgid "Created or updated %(num)s users."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:263
+msgid "Failed to create or update %(num)s users, including: %(failed)s"
+msgstr ""
+
+#: mongaku/build/views/Page.js:212
+msgid "Add or Update Source"
+msgstr ""
+
+#: mongaku/build/logic/admin.js:299
+msgid "New source created: %(source)s"
+msgstr ""
+
+#: mongaku/build/views/Page.js:214
+msgid "Bulk Add or Update Sources"
+msgstr ""
+
+#: mongaku/build/logic/admin.js:338
+msgid "Error parsing source data."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:368
+msgid "Created or updated %(num)s sources."
+msgstr ""
+
+#: mongaku/build/logic/admin.js:374
+msgid "Failed to create or update %(num)s sources, including: %(failed)s"
+msgstr ""
+
+#: mongaku/build/views/Page.js:216
+msgid "Manage Sources"
+msgstr ""
+
+#: mongaku/build/tests/options.js:133
+msgid "Not found."
+msgstr ""
+
+#: mongaku/build/logic/create.js:50
+msgid "Cloning '%(recordTitle)s'"
+msgstr ""
+
+#: mongaku/build/logic/shared/auth.js:75
+msgid "Authorization required."
+msgstr ""
+
+#: mongaku/build/logic/create.js:110
+msgid "%(recordName)s: Create New"
+msgstr ""
+
+#: mongaku/build/logic/uploads.js:136
+msgid "Error processing upload."
+msgstr ""
+
+#: mongaku/build/logic/create.js:190
+msgid "Error processing image: %(image)s"
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:68
+msgid "Error saving record."
+msgstr ""
+
+#: mongaku/build/logic/edit.js:49
+msgid "Error removing record."
+msgstr ""
+
+#: mongaku/build/logic/view.js:30
+msgid "Page not found."
+msgstr ""
+
+#: mongaku/build/logic/edit.js:76
+msgid "Updating '%(recordTitle)s'"
+msgstr ""
+
+#: mongaku/build/logic/uploads.js:50
+msgid "Error processing image."
+msgstr ""
+
+#: mongaku/build/logic/edit.js:234
+msgid "Error processing request."
+msgstr ""
+
+#: mongaku/build/logic/search.js:30
+msgid "Permission denied."
+msgstr ""
+
+#: mongaku/build/logic/shared/auth.js:51
+msgid "Source not found."
+msgstr ""
+
+#: mongaku/build/logic/shared/queries.js:53
+msgid "Query: '%(query)s'"
+msgstr ""
+
+#: mongaku/build/logic/shared/queries.js:81
+msgid "Similar to Any Record"
+msgstr ""
+
+#: mongaku/build/logic/shared/queries.js:91
+msgid "Similar to an External Record"
+msgstr ""
+
+#: mongaku/build/logic/shared/queries.js:118
+msgid "Similar to an Internal Record"
+msgstr ""
+
+#: mongaku/build/logic/shared/queries.js:160
+msgid "Has An Image"
+msgstr ""
+
+#: mongaku/build/logic/shared/queries.js:168
+msgid "Has No Image"
+msgstr ""
+
+#: mongaku/build/logic/shared/search-page.js:22
+msgid "Error connecting to database."
+msgstr ""
+
+#: mongaku/build/server/routes.js:65
+msgid "Page Not Found"
+msgstr ""
+
+#: mongaku/build/logic/shared/search.js:181
+msgid "Search Results"
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:117
+msgid "Import not found."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:88
+msgid "Data Import: %(fileName)s"
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:150
+msgid "Image Import: %(fileName)s"
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:220
+msgid "Error retrieving records."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:223
+msgid "%(name)s Admin Area"
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:278
+msgid "Error processing zip file."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:284
+msgid "No zip file specified."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:294
+msgid "Error saving zip file."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:317
+msgid "Error processing directory."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:321
+msgid "No directory specified."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:329
+msgid "Error saving directory."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:349
+msgid "Error processing data files."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:355
+msgid "No data files specified."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:370
+msgid "Error saving data file."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:388
+msgid "Error updating similarity."
+msgstr ""
+
+#: mongaku/build/logic/source-admin.js:413
+msgid "Error updating source."
+msgstr ""
+
+#: mongaku/build/logic/uploads.js:120
+msgid "No image URL specified."
+msgstr ""
+
+#: mongaku/build/logic/uploads.js:142
+msgid "No image specified."
+msgstr ""
+
+#: mongaku/build/logic/uploads.js:161
+msgid "Uploaded image not found."
+msgstr ""
+
+#: mongaku/build/views/Page.js:302
+msgid "Login"
+msgstr ""
+
+#: mongaku/build/logic/users.js:30
+msgid "Invalid username or password."
+msgstr ""
+
+#: mongaku/build/logic/view.js:50
+msgid "Permission denied"
+msgstr ""
+
+#: mongaku/build/logic/view.js:125
+msgid "Record not found."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:21
+msgid "Awaiting processing..."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:29
+msgid "Processing..."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:63
+msgid "Completed."
+msgstr ""
+
+#: mongaku/build/schemas/ImageImport.js:60
+msgid "Error opening zip file."
+msgstr ""
+
+#: mongaku/build/schemas/ImageImport.js:61
+msgid "Zip file has no images in it."
+msgstr ""
+
+msgid ""
+msgstr ""
+
+#: mongaku/build/schemas/ImageImport.js:63
+msgid "The image is empty."
+msgstr ""
+
+#: mongaku/build/schemas/ImageImport.js:66
+msgid "Error saving image."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:193
+msgid "Error: %(error)s"
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:410
+msgid "Image file not found: %(fileName)s"
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:420
+msgid "Error accessing image data."
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:428
+msgid "No images found."
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:471
+msgid "There was an error with the data format."
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:498
+msgid "Unrecognized field `%(field)s`."
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:592
+msgid "Required field `%(field)s` is empty."
+msgstr ""
+
+#: mongaku/build/schemas/Record.js:597
+msgid "Recommended field `%(field)s` is empty."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:32
+msgid "Confirmation required."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:39
+msgid "Importing data..."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:42
+msgid "Awaiting similarity sync..."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:50
+msgid "Syncing similarity..."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:66
+msgid "Data import abandoned."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:67
+msgid "Error reading data from provided data files."
+msgstr ""
+
+#: mongaku/build/schemas/RecordImport.js:69
+msgid "Error deleting existing record."
+msgstr ""
+
+#: mongaku/build/schemas/types/Location.js:78
+msgid "Locations must have a name or city specified."
+msgstr ""
+
+#: mongaku/build/schemas/types/URL.js:44
+msgid "Field must be properly-formatted URL."
+msgstr ""
+
+#: mongaku/build/schemas/types/YearRange.js:279
+msgid "Dates must have a start or end specified."
+msgstr ""
+
+#: mongaku/build/views/Upload.js:23
+msgid "Uploaded Image"
+msgstr ""
+
+#: mongaku/build/tests/options.js:5
+msgid "Architecture"
+msgstr ""
+
+#: mongaku/build/tests/options.js:8
+msgid "Decorative Arts"
+msgstr ""
+
+#: mongaku/build/tests/options.js:11
+msgid "Drawing"
+msgstr ""
+
+#: mongaku/build/tests/options.js:14
+msgid "Fresco"
+msgstr ""
+
+#: mongaku/build/tests/options.js:17
+msgid "Medal"
+msgstr ""
+
+#: mongaku/build/tests/options.js:20
+msgid "Miniature"
+msgstr ""
+
+#: mongaku/build/tests/options.js:23
+msgid "Mosaic"
+msgstr ""
+
+#: mongaku/build/tests/options.js:26
+msgid "Painting"
+msgstr ""
+
+#: mongaku/build/tests/options.js:29
+msgid "Photo"
+msgstr ""
+
+#: mongaku/build/tests/options.js:32
+msgid "Print"
+msgstr ""
+
+#: mongaku/build/tests/options.js:35
+msgid "Sculpture"
+msgstr ""
+
+#: mongaku/build/tests/options.js:38
+msgid "Stained Glass"
+msgstr ""
+
+#: mongaku/build/tests/options.js:47
+msgid "Date, earliest first"
+msgstr ""
+
+#: mongaku/build/tests/options.js:48
+msgid "Date, latest first"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:377
+msgid "URL"
+msgstr ""
+
+#: mongaku/build/tests/options.js:67
+msgid "Sample: Andrea del Sarto"
+msgstr ""
+
+#: mongaku/build/tests/options.js:83
+msgid "Type"
+msgstr ""
+
+#: mongaku/build/tests/options.js:84
+msgid "Any Type"
+msgstr ""
+
+#: mongaku/build/tests/options.js:93
+msgid "Medium"
+msgstr ""
+
+#: mongaku/build/tests/options.js:99
+msgid "Dimensions"
+msgstr ""
+
+#: mongaku/build/tests/options.js:100
+msgid "Height"
+msgstr ""
+
+#: mongaku/build/tests/options.js:101
+msgid "Width"
+msgstr ""
+
+#: mongaku/build/tests/options.js:111
+msgid "Location"
+msgstr ""
+
+#: mongaku/build/tests/options.js:112
+msgid "Sample: Louvre"
+msgstr ""
+
+#: mongaku/build/tests/options.js:118
+msgid "Categories"
+msgstr ""
+
+#: mongaku/build/views/AddSource.js:36
+msgid "Source ID (required, lowercase letters only)"
+msgstr ""
+
+#: mongaku/build/views/AddSource.js:40
+msgid "e.g. frick"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:351
+msgid "Full Name (required)"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:355
+msgid "e.g. Frick Library"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:363
+msgid "Short Name (required)"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:367
+msgid "e.g. Frick"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:390
+msgid "Private?"
+msgstr ""
+
+#: mongaku/build/views/AddSources.js:53
+msgid "Data Type"
+msgstr ""
+
+#: mongaku/build/views/AddSources.js:64
+msgid "Data Converter"
+msgstr ""
+
+#: mongaku/build/views/AddSources.js:29
+msgid ""
+"Paste in a CSV list of ids, full names, short names, and URLs separated by "
+"endlines, for example:"
+msgstr ""
+
+#: mongaku/build/views/AddSources.js:36
+msgid "Source IDs, Full Names, Short Names, and URLs (CSV, required)"
+msgstr ""
+
+#: mongaku/build/views/AddUser.js:32
+msgid "Username (required)"
+msgstr ""
+
+#: mongaku/build/views/AddUser.js:42
+msgid "Password (required)"
+msgstr ""
+
+#: mongaku/build/views/AddUsers.js:45
+msgid "Can view private sources"
+msgstr ""
+
+#: mongaku/build/views/AddUsers.js:50
+msgid "Admin User"
+msgstr ""
+
+#: mongaku/build/views/AddUsers.js:24
+msgid ""
+"Paste in a CSV list of usernames and passwords separated by endlines, for "
+"example:"
+msgstr ""
+
+#: mongaku/build/views/AddUsers.js:31
+msgid "Usernames and Passwords (CSV, required)"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:63
+msgid "Remove Image"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:104
+msgid "Add Images"
+msgstr ""
+
+#: mongaku/build/views/ManageSources.js:35
+msgid "ID"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:435
+msgid "Show private fields."
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:476
+msgid "Update"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:479
+msgid "Create"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:481
+msgid "Clone"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:498
+msgid "Are you sure you wish to delete this?"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:502
+msgid "Delete"
+msgstr ""
+
+#: mongaku/build/views/EditRecord.js:533
+msgid "Clone Record"
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:280
+msgid "Search"
+msgstr ""
+
+#: mongaku/build/views/Page.js:134
+msgid "Browse All"
+msgstr ""
+
+#: mongaku/build/views/Page.js:136
+msgid "Create New"
+msgstr ""
+
+#: mongaku/build/views/Home.js:56
+msgid "Search by Image:"
+msgstr ""
+
+#: mongaku/build/views/Home.js:56
+msgid "Upload an image to find other similar images."
+msgstr ""
+
+#: mongaku/build/views/Home.js:62
+msgid "Upload an Image"
+msgstr ""
+
+#: mongaku/build/views/Home.js:104
+msgid "Search by Image"
+msgstr ""
+
+#: mongaku/build/views/Home.js:87
+msgid "Paste Image URL"
+msgstr ""
+
+#: mongaku/build/views/Home.js:140
+msgid "Browse by Collection:"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:146
+msgid "Uploaded: %(date)s"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:149
+msgid "Last Updated: %(date)s"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:159
+msgid "Return to Admin Page"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Errors"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Warnings"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:202
+msgid "Finalize Import"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:123
+msgid "Abandon Import"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:161
+msgid "To Be Processed"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:179
+msgid "Changed"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:179
+msgid "Will Be Changed"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Created"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:186
+msgid "Will Be Created"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Deleted"
+msgstr ""
+
+#: mongaku/build/views/ImportRecords.js:193
+msgid "Will Be Deleted"
+msgstr ""
+
+#: mongaku/build/views/ImportResult.js:26
+msgid "Show all %(count)s results..."
+msgstr ""
+
+#: mongaku/build/views/Login.js:48
+msgid "Username:"
+msgstr ""
+
+#: mongaku/build/views/Login.js:56
+msgid "Password:"
+msgstr ""
+
+#: mongaku/build/views/ManageSources.js:39
+msgid "Full Name"
+msgstr ""
+
+#: mongaku/build/views/ManageSources.js:94
+msgid "Public Sources"
+msgstr ""
+
+#: mongaku/build/views/ManageSources.js:97
+msgid "Private Sources"
+msgstr ""
+
+#: mongaku/build/views/Page.js:265
+msgid "Toggle Navigation"
+msgstr ""
+
+#: mongaku/build/views/Page.js:304
+msgid "Logout"
+msgstr ""
+
+#: mongaku/build/views/Search.js:225
+msgid "Previous"
+msgstr ""
+
+#: mongaku/build/views/Search.js:229
+msgid "Next"
+msgstr ""
+
+#: mongaku/build/views/Record.js:274
+msgid "Details"
+msgstr ""
+
+#: mongaku/build/views/Record.js:277
+msgid "More information..."
+msgstr ""
+
+#: mongaku/build/views/Record.js:306
+msgid "Private"
+msgstr ""
+
+#: mongaku/build/views/Record.js:670
+msgid "End Comparison"
+msgstr ""
+
+#: mongaku/build/views/Upload.js:67
+msgid "Score: %(score)s"
+msgstr ""
+
+#: mongaku/build/views/Record.js:399
+msgid "Compare Images"
+msgstr ""
+
+#: mongaku/build/views/Upload.js:102
+msgid "Similar Images"
+msgstr ""
+
+#: mongaku/build/views/Record.js:622
+msgid "Close (Esc)"
+msgstr ""
+
+#: mongaku/build/views/Record.js:625
+msgid "Share"
+msgstr ""
+
+#: mongaku/build/views/Record.js:628
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: mongaku/build/views/Record.js:631
+msgid "Zoom in/out"
+msgstr ""
+
+#: mongaku/build/views/Record.js:646
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: mongaku/build/views/Record.js:649
+msgid "Next (arrow right)"
+msgstr ""
+
+#: mongaku/build/views/Search.js:77
+msgid "Show %(count)s more..."
+msgstr ""
+
+#: mongaku/build/views/Search.js:128
+msgid "%(numRecords)s matches."
+msgstr ""
+
+#: mongaku/build/views/Search.js:130
+msgid "Viewing %(start)s to %(end)s."
+msgstr ""
+
+#: mongaku/build/views/Search.js:164
+msgid "Remove %(query)s"
+msgstr ""
+
+#: mongaku/build/views/Search.js:204
+msgid "No results found. Please refine your query."
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:155
+msgid "Filter by source..."
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:180
+msgid "Similarity"
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:210
+msgid "Filter by image..."
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:234
+msgid "Sort"
+msgstr ""
+
+#: mongaku/build/views/SearchForm.js:270
+msgid "Query"
+msgstr ""
+
+#: mongaku/build/views/shared/Select.js:300
+msgid "Error loading options."
+msgstr ""
+
+#: mongaku/build/views/shared/Select.js:310
+msgid "Loading..."
+msgstr ""
+
+#: mongaku/build/views/shared/Select.js:322
+msgid "No results found."
+msgstr ""
+
+#: mongaku/build/views/shared/Select.js:353
+msgid "Add %(value)s..."
+msgstr ""
+
+#: mongaku/build/views/shared/Select.js:452
+msgid "Select..."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "File Name"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Last Updated"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Status"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:84
+msgid "Image Similarity Indexing Progress"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:86
+msgid ""
+"After images have been imported into the database they will be indexed by "
+"the image similiarity search engine. This process can take a while (but you "
+"don't need to wait for it to finish before importing any metadata)."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:86
+msgid "Images Indexed:"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:88
+msgid ""
+"As images get indexed by the simliarity search engine they will become "
+"findable via the image search."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:91
+msgid "Images Similarity Updated:"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:96
+msgid "Update Similarity"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:97
+msgid ""
+"Once all of the images are indexed their similarity records will update, "
+"making it possible to find similar records when browsing."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:117
+msgid "Upload Images"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:298
+msgid "Upload"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:155
+msgid "Upload Directory of Images"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Unprocessed"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:237
+msgid "Updated"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:280
+msgid "Upload Metadata"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:260
+msgid ""
+"Please upload some images, or wait for the images to finish processing, "
+"before uploading any metadata."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:319
+msgid "Record Similarity Indexing Progress"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:321
+msgid "Record Similarity Updated:"
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:323
+msgid ""
+"Whenever new data is added or image similarity updated the similarity "
+"between records will need to be re-computed. This should be a very fast "
+"operation."
+msgstr ""
+
+#: mongaku/build/views/SourceAdmin.js:392
+msgid "Update Source"
+msgstr ""
+
+#: mongaku/build/views/Upload.js:90
+msgid "No similar images were found."
+msgstr ""
