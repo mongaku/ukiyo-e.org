@@ -21,6 +21,6 @@
   "dependencies": {
     "concat-stream": "^1.6.0",
     "jsonlint": "^1.6.2",
-    "romaji-name": "^0.1.7"
+    "romaji-name": "^0.1.8"
   }
 }
